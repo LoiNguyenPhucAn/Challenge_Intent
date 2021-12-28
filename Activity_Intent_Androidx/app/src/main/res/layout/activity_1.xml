@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_1">
+
+    <EditText
+        android:id="@+id/target"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="target to find"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/replacement"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="replacement"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/sendToMain"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="send result to main Activity" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2196F3">
+
+        <TextView
+            android:id="@+id/receiveFromMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>
